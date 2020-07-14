@@ -1,5 +1,7 @@
 # Transformer
 
+This repository contains a Transformer implémentation with PyTorch (i.e https://arxiv.org/pdf/1706.03762.pdf)
+
 ## Overview
 
 This is your new Kedro project, which was generated using `Kedro 0.16.2` by running:
