@@ -1,6 +1,6 @@
 # Transformer
 
-This repository contains a Transformer implémentation with PyTorch (i.e https://arxiv.org/pdf/1706.03762.pdf)
+This repository contains a Transformer implementation with PyTorch (i.e https://arxiv.org/pdf/1706.03762.pdf)
 
 ## Overview
 
