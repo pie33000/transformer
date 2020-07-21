@@ -32,6 +32,7 @@
 from typing import Dict
 
 from kedro.pipeline import Pipeline
+from transformer.pipelines.train import create_training_pipeline as training
 
 def create_pipelines(**kwargs) -> Dict[str, Pipeline]:
     """Create the project's pipeline.
@@ -43,5 +44,9 @@ def create_pipelines(**kwargs) -> Dict[str, Pipeline]:
         A mapping from a pipeline name to a ``Pipeline`` object.
 
     """
+    training_pipeline = training()
 
-    return {"__default__": Pipeline([])}
+    return {
+        "train": training_pipeline,
+        "__default__": training_pipeline,
+    }
