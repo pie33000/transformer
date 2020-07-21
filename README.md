@@ -7,7 +7,7 @@ To run a training with synthetic data, you have to follow the section Installati
 ## Installation
 First of all, create a Conda environment: 
 
-    conda create -n your_env_name -python=3.6
+    conda create -n your_env_name python=3.6
 
 Then activate the environment:
 
